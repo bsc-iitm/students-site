@@ -20,14 +20,15 @@ const GovernancePage = () => {
 
   return (
     <Layout>
-      {/* <Container bgColor={"bg-color-maroon"}>
+      <Container bgColor={"bg-color-maroon"}>
         <ScrollFade>
           <div className="text-center">
-            <h1 className="text-color-gold font-righteus text-uppercase fw-bold">The Executive Council</h1>
+            <h1 className="text-color-gold font-righteus text-uppercase fw-bold">The 12 Houses</h1>
           </div>
+        <Houses />
         </ScrollFade>
       </Container>
-      <Container bgColor="bg-color-maroon font-righteous">
+      {/* <Container bgColor="bg-color-maroon font-righteous">
         <Loader loading={secloading}>
         <ScrollFade>
           <div className="row">
@@ -58,7 +59,7 @@ const GovernancePage = () => {
           </div>
         </Container>
       </ScrollFade> */}
-      <ScrollFade>
+      {/* <ScrollFade>
         <Container bgColor={"bg-color-maroon"}>
           <ContainerHeader>
             <h2 className="my-4">Executive Office Openings</h2>
@@ -79,16 +80,8 @@ const GovernancePage = () => {
             </div>
           </div>
         </Container>
-      </ScrollFade>
-      <Container>
-        <ScrollFade>
-          <div className="text-center my-3">
-            <h2 className="text-black font-righteus text-uppercase fw-bold">12 houses</h2>
-          </div>
-        </ScrollFade>
-        <Houses />
-      </Container>
-      <Container bgColor={"bg-color-maroon"}>
+      </ScrollFade> */}
+      <Container bgColor={"bg-color-primary"}>
         <div className="text-center">
           <h1 className="text-color-gold font-righteus text-uppercase fw-bold">House Secreteries</h1>
         </div>
@@ -96,7 +89,7 @@ const GovernancePage = () => {
       <Container bg-bgColor={"bg-color-primary"}>
         <NameList list={sec} role={"secretary"} />
       </Container>
-      <Container bgColor={"bg-color-maroon"}>
+      <Container bgColor={"bg-color-primary"}>
         <div className="text-center">
           <h1 className="text-color-gold font-righteus text-uppercase fw-bold">House Deputy Secreteries</h1>
         </div>
@@ -104,7 +97,7 @@ const GovernancePage = () => {
       <Container bg-bgColor={"bg-color-primary"}>
         <NameList list={ds} role={"deputy-secretary"} />
       </Container>
-      <Container bgColor={"bg-color-maroon"}>
+      <Container bgColor={"bg-color-primary"}>
         <div className="text-center">
           <h1 className="text-color-gold font-righteus text-uppercase fw-bold">House Web Admins</h1>
         </div>

@@ -14,8 +14,8 @@ const LINKS = [
     label: "Our Students",
   },
   {
-    to: "/activities",
-    label: "Activities",
+    to: "/clubs",
+    label: "Clubs",
   },
   {
     to: "/services",
@@ -72,7 +72,7 @@ const NavigationDefault = () => {
       <div className="mx-lg-5 px-lg-5">
         <div className="mx-lg-5 px-lg-5 d-flex justify-content-center d-lg-block">
           <div className="navbar-brand bg-color-primary mx-5 mx-lg-3 p-0 px-5 navbar-rounded">
-            IIT Madras Online Degree Students
+            IIT Madras BS Degree Students
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 export const carouselList = [
-  "https://noufal.me/iitmbsc.org/banners/banner1.webp", 
-  "https://noufal.me/iitmbsc.org/banners/banner2.webp", 
+  "https://noufal.engineer/iitmbsc.org/banners/banner1.webp", 
+  "https://noufal.engineer/iitmbsc.org/banners/banner2.webp", 
 ];
 
 // const fetchSECMembers = () => {
@@ -27,7 +27,7 @@ export const mainEvents = [
     name: "Paradox '22",
     desc: "Event Description",
     date: "20 May 2022",
-    imgURL: "https://noufal.me/iitmbsc.org//banners/banner1.webp"
+    imgURL: "https://noufal.engineer/iitmbsc.org//banners/banner1.webp"
   },
   {
     name: "Event 2",
