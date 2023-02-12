@@ -12,6 +12,7 @@ import GrievancePage from "pages/grievance";
 import SupportPage from "pages/support";
 import CertVerifyPage from "pages/cvs";
 import FaqPage from "pages/faq";
+import SocietiesPage from "pages/societies";
 
 import BackToTop from "components/BackToTop";
 // import { getSECMembers, getExecOpenings, getFromPres } from "apis/firebase.js";
@@ -39,9 +40,9 @@ function App() {
             <Route exact path="/" component={HomePage} />
             <Route exact path="/governance" component={GovernancePage} />
             <Route exact path="/students" component={StudentsPage} />
-            {/* <Route exact path="/activities" component={ActivitiesPage} /> */}
+            <Route exact path="/societies" component={SocietiesPage} />
             <Route exact path="/clubs" component={ClubsPage} />
-            <Route exact path="/activities/events" component={EventsPage} />
+            <Route exact path="/events" component={EventsPage} />
             <Route exact path="/services" component={ServicesPage} />
             <Route exact path="/services/wellness-center" component={WellnessCenterPage} />
             <Route exact path="/services/grievance-redressal" component={GrievancePage} />

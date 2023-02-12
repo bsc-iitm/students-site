@@ -1,6 +1,16 @@
 export const carouselList = [
-  "https://noufal.engineer/iitmbsc.org/banners/banner1.webp", 
-  "https://noufal.engineer/iitmbsc.org/banners/banner2.webp", 
+  {
+    link: "https://uploads-ssl.webflow.com/63a4093ca918637551d8e43e/63d2e79e05b8de27076e3216_Landing-1-web.jpg",
+    caption: "Lorem ipsum dolor sit amet consecutor la adipes"
+  },
+  {
+    link: "https://uploads-ssl.webflow.com/63a4093ca918637551d8e43e/63d2e79e716606bc471ee600_Landing-4-web.jpg",
+    caption: "Lorem ipsum dolor sit amet consecutor la adipes"
+  },
+  {
+    link: "https://uploads-ssl.webflow.com/63a4093ca918637551d8e43e/63e1eaf5e07cdb90e2dbd922_IMG-20220306-WA0028.jpg",
+    caption: "Lorem ipsum dolor sit amet consecutor la adipes"
+  }
 ];
 
 // const fetchSECMembers = () => {

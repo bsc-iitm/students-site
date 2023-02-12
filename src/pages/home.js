@@ -5,6 +5,7 @@ import Container from "components/Container";
 import ContainerHeader from "components/ContainerHeader";
 import { carouselList, mainEvents, execOpenings, support } from "constant/data";
 import ScrollFade from "components/container/ScrollFade";
+import { ScrollSlideLeft, ScrollSlideRight } from "components/container/ScrollSlide";
 
 const HomePage = () => {
   return (
@@ -14,8 +15,8 @@ const HomePage = () => {
           <CarouselElement list={carouselList} />
         </ScrollFade>
       </Container>
-        <Container bgColor="bg-color-maroon text-white font-righteous">
-      <ScrollFade>
+      {/* <Container bgColor="bg-color-maroon text-white font-righteous">
+        <ScrollFade>
           <ContainerHeader btnText="EXPLORE" to="/activities" btnClass="text-white bg-color-gold">
             <h5 className="m-0">GET UPTO DATE ON</h5>
             <h2 className="m-0 text-color-gold">UPCOMING EVENTS</h2>
@@ -56,7 +57,57 @@ const HomePage = () => {
             </div>
           </div>
       </ScrollFade>
-        </Container>
+      </Container> */}
+      <ScrollFade>
+        <div class="wf-section">
+          <div data-w-id="41cc8478-8cea-ae1b-5117-5cebe8ef1cdf" className="container-12 w-container">
+            <h1 class="heading-9">Join one of the largest student communities in the world</h1>
+            <p class="paragraph-13">Yes you heard it right</p>
+          </div>
+        </div>
+      </ScrollFade>
+      
+      <div class="section-11 wf-section">
+        <div data-w-id="7fe52c97-846b-1f97-10a3-8d58b27f3a91" class="container-12 w-container">
+          <ScrollFade>
+            <div class="div-block-17 mb-3">
+              <h1 class="heading-8">Meet the 12 Houses</h1>
+              <a data-w-id="7c874e39-a7f0-bc20-ad59-2465e7db51ea" href="/governance" class="button-3 w-button">Governance &gt;</a>
+            </div>
+            <p class="paragraph-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+            <a href="/governance" class="button-4 w-button">Governance &gt;</a>
+          </ScrollFade>
+        </div>
+      </div>
+      <div class="wf-section">
+        <div class="container-14 pt-3 w-container">
+          <div data-w-id="92fef6b1-6986-df38-9df1-01688724ae70" class="div-block-18">
+            <ScrollSlideRight>
+              <h1 class="heading-9">Societies</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+              <a href="/societies" class="link">Learn More &gt;</a>
+            </ScrollSlideRight> 
+          </div>
+          <div data-w-id="26b4f08b-f24e-69fe-a7a3-ce8419486b0e" class="div-block-19">
+            <ScrollSlideLeft>
+              <h1 class="heading-9">Events</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+              <a href="/events" class="link">Learn More &gt;</a>
+            </ScrollSlideLeft>
+          </div>
+        </div>
+      </div>
+      <div class="section-16 wf-section">
+        <div data-w-id="88fa0de0-49e2-0176-d353-3aae68990b1c" class="container-12 w-container">
+          <ScrollFade>
+            <h1 class="heading-9">Oncampus Gatherings</h1>
+            <p class="paragraph-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere. <br />
+            </p>
+            <p class="paragraph-light">explain about paradox in about 5-6 lines <br />
+            </p>
+          </ScrollFade>
+        </div>
+      </div>
       {/* <ScrollFade>
         <Container bgColor="bg-color-primary font-righteous">
           <ContainerHeader btnText="VIEW MORE" to="/governance#exec-openings" btnClass="text-color-gold bg-color-maroon">
@@ -101,8 +152,8 @@ const HomePage = () => {
         </Container>
       </ScrollFade> */}
 
-        <Container bgColor="bg-color-maroon text-white font-righteous">
-      <ScrollFade>
+      {/* <Container bgColor="bg-color-maroon text-white font-righteous">
+        <ScrollFade>
           <ContainerHeader btnText="SUPPORT" to="/services" btnClass="text-white bg-color-gold">
             <h5 className="m-0">WE ARE HERE TO</h5>
             <h2 className="m-0 text-color-gold">SUPPORT YOU</h2>
@@ -141,7 +192,7 @@ const HomePage = () => {
             </div>
           </div>
       </ScrollFade>
-        </Container>
+        </Container> */}
     </Layout>
   );
 };

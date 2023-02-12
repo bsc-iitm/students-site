@@ -1,7 +1,7 @@
 .carousel-indicators {
   margin: 0 !important;
-  position: sticky !important;
-  justify-content: end !important;
+  /* position: sticky !important;
+  justify-content: end !important; */
 }
 
 .carousel-indicators [data-bs-target] {
@@ -13,4 +13,8 @@
 
 .carousel-control-prev, .carousel-control-next {
   display: none !important;
+}
+
+.carousel-caption {
+  position: initial !important;
 }

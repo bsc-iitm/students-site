@@ -1,81 +1,35 @@
 import { NavLink } from "react-router-dom";
 
-import logo from "assets/images/logo.png";
+import logo from "assets/images/logo.webp";
 
 import "./Default.css";
 
-const LINKS = [
-  {
-    to: "/governance",
-    label: "Governance",
-  },
-  {
-    to: "/students",
-    label: "Our Students",
-  },
-  {
-    to: "/clubs",
-    label: "Clubs",
-  },
-  {
-    to: "/services",
-    label: "Services",
-  },
-];
-
 const NavigationDefault = () => {
   return (
-    <div className="bg-color-maroon px-lg-5 pb-lg-4">
-      <nav className="navbar navbar-dark navbar-expand-lg py-0 mx-lg-5">
-        <div className="container-fluid bg-color-gold mx-lg-5 navbar-rounded">
-          <img src={logo} className="navbar-brand-img mt-lg-5 m-2 mx-lg-5" alt="" />
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul className="navbar-nav navbar-dark py-2 pb-5 pb-lg-2 px-5">
-              <li className="nav-item mx-3">
-                <NavLink
-                  to={"/"}
-                  exact
-                  activeClassName="active"
-                  className="nav-link text-uppercase text-white fw-bold"
-                  id={"Home"}
-                >
-                  Home
-                </NavLink>
-              </li>
-              {LINKS.map(({ to, label }) => (
-                <li className="nav-item mx-3" key={to}>
-                  <NavLink
-                    to={to}
-                    activeClassName="active"
-                    className="nav-link text-uppercase text-white fw-bold"
-                    id={label}
-                  >
-                    {label}
-                  </NavLink>
-                </li>
-              ))}
-            </ul>
-          </div>
+    <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="f-navigation w-nav">
+      <div class="f-navigation-container">
+        <div class="f-navbrand">
+          <a href="#" class="f-navigation-logo-link w-inline-block">
+            <img src={logo} loading="lazy" alt="logo" class="f-logo" />
+          </a>
         </div>
-      </nav>
-      <div className="mx-lg-5 px-lg-5">
-        <div className="mx-lg-5 px-lg-5 d-flex justify-content-center d-lg-block">
-          <div className="navbar-brand bg-color-primary mx-5 mx-lg-3 p-0 px-5 navbar-rounded">
-            IIT Madras BS Degree Students
+        <div class="f-navigation-content">
+          <nav role="navigation" class="f-navigation-menu w-nav-menu">
+            <div class="div-block-7">
+            
+              <NavLink to="/" id="" activeClassName=" w--current" className="f-navigation-link w-nav-link">Home</NavLink>
+              <NavLink to="/students" id="students" activeClassName=" w--current" className="f-navigation-link w-nav-link">Students</NavLink>
+              <NavLink to="/governance" id="governance" activeClassName=" w--current" className="f-navigation-link w-nav-link">Governance</NavLink>
+              <NavLink to="/societies" id="societies" activeClassName=" w--current" className="f-navigation-link w-nav-link">Societies</NavLink>
+              <NavLink to="/events" id="events" activeClassName=" w--current" className="f-navigation-link w-nav-link">Events</NavLink>
+            </div>
+          </nav>
+          <div class="f-navigation-menu-button w-nav-button">
+            <div class="icon-3 w-icon-nav-menu"></div>
           </div>
         </div>
       </div>
+      <h1 class="centered-heading margin-bottom-32px">IIT Madras BS Students</h1>
     </div>
   );
 };

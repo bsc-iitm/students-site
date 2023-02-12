@@ -1,5 +1,5 @@
 import React from "react";
-import './ScrollFade.css'
+import './anim.css'
 
 const ScrollFade = ({ children }) => {
   const [isVisible, setVisible] = React.useState(false);
