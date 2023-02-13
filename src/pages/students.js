@@ -1,22 +1,22 @@
 import React from "react";
 import Layout from "components/Layout";
 import Container from "components/Container";
-import ContainerHeader from "components/ContainerHeader";
-import "components/chart/chartLocal.css";
-import { Bar, Pie } from "react-chartjs-2";
-import { Chart as ChartJS, ArcElement, CategoryScale, LinearScale, BarElement, Tooltip, Title, Legend } from 'chart.js';
+// import ContainerHeader from "components/ContainerHeader";
+// import "components/chart/chartLocal.css";
+// import { Bar, Pie } from "react-chartjs-2";
+// import { Chart as ChartJS, ArcElement, CategoryScale, LinearScale, BarElement, Tooltip, Title, Legend } from 'chart.js';
 import ScrollFade from "components/container/ScrollFade";
-import { wps, field_data, cgpa, age, expec_term_data } from 'constant/data'
+// import { wps, field_data, cgpa, age, expec_term_data } from 'constant/data'
 
-ChartJS.register(
-  ArcElement,
-  CategoryScale,
-  LinearScale,
-  BarElement,
-  Title,
-  Tooltip,
-  Legend
-);
+// ChartJS.register(
+//   ArcElement,
+//   CategoryScale,
+//   LinearScale,
+//   BarElement,
+//   Title,
+//   Tooltip,
+//   Legend
+// );
 
 const StudentsPage = () => {
   if (!window.location.href.split("#")[1]) {window.scrollTo({top: 0})}
@@ -28,22 +28,22 @@ const StudentsPage = () => {
         </ScrollFade>
       </Container> */}
       
-    <div class="section-14 wf-section">
-      <div class="container-12 w-container">
-        <h1 class="heading">The Student Community</h1>
-        <p class="paragraph-7">
-          <span class="text-span">O</span>ne of the largest student community consisting of students from around the world speaking various languages. This is a diverse and inclusive group that brings together individuals from different cultural backgrounds and linguistic backgrounds. This is where students can connect and communicate with one another regardless of their location. The community is focused on providing a space for students to share knowledge, resources, and support, while also promoting cultural exchange and understanding.
+    <div className="section-14 wf-section">
+      <div className="container-12 w-container">
+        <h1 className="heading">The Student Community</h1>
+        <p className="paragraph-7">
+          <span className="text-span">O</span>ne of the largest student community consisting of students from around the world speaking various languages. This is a diverse and inclusive group that brings together individuals from different cultural backgrounds and linguistic backgrounds. This is where students can connect and communicate with one another regardless of their location. The community is focused on providing a space for students to share knowledge, resources, and support, while also promoting cultural exchange and understanding.
         </p>
-        <p class="paragraph-7">A tight-knit group of individuals who come together to share knowledge, resources, and support for one another. The community is focused on promoting personal and professional growth, and providing a support system for students as they navigate their educational journey. The students at IITM are known for their high academic standards and rigorous curriculum, and the community fosters an environment of academic excellence and achievement.</p>
+        <p className="paragraph-7">A tight-knit group of individuals who come together to share knowledge, resources, and support for one another. The community is focused on promoting personal and professional growth, and providing a support system for students as they navigate their educational journey. The students at IITM are known for their high academic standards and rigorous curriculum, and the community fosters an environment of academic excellence and achievement.</p>
       </div>
     </div>
 
-    <div class="wf-section">
-      <div class="container-12 w-container">
+    <div className="wf-section">
+      <div className="container-12 w-container">
         <ScrollFade>
-          <h1 class="sub-heading">Cohort ready for internships and job offers</h1>
-          <p class="paragraph-11">We have a cohort of over 1400 talented students who have completed double diplomas in Programming and Data Sciences and will be taking up 3-6 months long internships starting September 2022. About 300 students from the cohort are working professionals and most students have dual degrees and therefore bring strong domain knowledge in various fields.</p>
-          <p class="paragraph-11">Lorem ipsum dolor sit amet dolor sit adipes</p>
+          <h1 className="sub-heading">Cohort ready for internships and job offers</h1>
+          <p className="paragraph-11">We have a cohort of over 1400 talented students who have completed double diplomas in Programming and Data Sciences and will be taking up 3-6 months long internships starting September 2022. About 300 students from the cohort are working professionals and most students have dual degrees and therefore bring strong domain knowledge in various fields.</p>
+          <p className="paragraph-11">Lorem ipsum dolor sit amet dolor sit adipes</p>
         </ScrollFade>
       </div>
     </div>
@@ -82,92 +82,92 @@ const StudentsPage = () => {
         </div>
       </Container>
     
-    <div class="wf-section">
-      <div class="container-12 w-container">
-        <h1 class="sub-heading center-text">The 12 houses</h1>
-        <div class="collection-list-wrapper w-dyn-list">
-          <div role="list" class="collection-list-3 w-dyn-items w-row">
-            <div data-w-id="bf2b646e-dc91-06d7-2bb1-9547567b8633" role="listitem" class="collection-item-4 w-dyn-item w-col w-col-3">
+    <div className="wf-section">
+      <div className="container-12 w-container">
+        <h1 className="sub-heading center-text">The 12 houses</h1>
+        <div className="collection-list-wrapper w-dyn-list">
+          <div role="list" className="collection-list-3 w-dyn-items w-row">
+            <div data-w-id="bf2b646e-dc91-06d7-2bb1-9547567b8633" role="listitem" className="collection-item-4 w-dyn-item w-col w-col-3">
               <ScrollFade>
-                <a href="/houses/bandipur-house" class="link-block-3 w-inline-block">
-                  <img src="https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93d2762ef821c73f90f_uc.webp" loading="lazy" alt="" class="image-7" />
+                <a href="/houses/bandipur-house" className="link-block-3 w-inline-block">
+                  <img src="https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93d2762ef821c73f90f_uc.webp" loading="lazy" alt="" className="image-7" />
                 </a>
               </ScrollFade>
             </div>
-            <div data-w-id="bf2b646e-dc91-06d7-2bb1-9547567b8633" role="listitem" class="collection-item-4 w-dyn-item w-col w-col-3">
+            <div data-w-id="bf2b646e-dc91-06d7-2bb1-9547567b8633" role="listitem" className="collection-item-4 w-dyn-item w-col w-col-3">
               <ScrollFade>
-                <a href="/houses/corbett-house" class="link-block-3 w-inline-block">
-                  <img src="https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93db2f8c914b9113114_uc.webp" loading="lazy" alt="" class="image-7" />
+                <a href="/houses/corbett-house" className="link-block-3 w-inline-block">
+                  <img src="https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93db2f8c914b9113114_uc.webp" loading="lazy" alt="" className="image-7" />
                 </a>
               </ScrollFade>
             </div>
-            <div data-w-id="bf2b646e-dc91-06d7-2bb1-9547567b8633" role="listitem" class="collection-item-4 w-dyn-item w-col w-col-3">
+            <div data-w-id="bf2b646e-dc91-06d7-2bb1-9547567b8633" role="listitem" className="collection-item-4 w-dyn-item w-col w-col-3">
               <ScrollFade>
-                <a href="/houses/gir-house" class="link-block-3 w-inline-block">
-                  <img src="https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93de72c80388743fd38_uc.webp" loading="lazy" alt="" class="image-7" />
+                <a href="/houses/gir-house" className="link-block-3 w-inline-block">
+                  <img src="https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93de72c80388743fd38_uc.webp" loading="lazy" alt="" className="image-7" />
                 </a>
               </ScrollFade>
             </div>
-            <div data-w-id="bf2b646e-dc91-06d7-2bb1-9547567b8633" role="listitem" class="collection-item-4 w-dyn-item w-col w-col-3">
+            <div data-w-id="bf2b646e-dc91-06d7-2bb1-9547567b8633" role="listitem" className="collection-item-4 w-dyn-item w-col w-col-3">
               <ScrollFade>
-                <a href="/houses/kanha-house" class="link-block-3 w-inline-block">
-                  <img src="https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93d7bbe6b1f8fa270ce_uc.webp" loading="lazy" alt="" sizes="(max-width: 767px) 32vw, (max-width: 991px) 130.890625px, 168px" srcset="https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93d7bbe6b1f8fa270ce_uc-p-500.webp 500w, https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93d7bbe6b1f8fa270ce_uc-p-800.webp 800w, https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93d7bbe6b1f8fa270ce_uc-p-1080.webp 1080w, https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93d7bbe6b1f8fa270ce_uc.webp 1280w" class="image-7" />
+                <a href="/houses/kanha-house" className="link-block-3 w-inline-block">
+                  <img src="https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93d7bbe6b1f8fa270ce_uc.webp" loading="lazy" alt="" sizes="(max-width: 767px) 32vw, (max-width: 991px) 130.890625px, 168px" srcSet="https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93d7bbe6b1f8fa270ce_uc-p-500.webp 500w, https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93d7bbe6b1f8fa270ce_uc-p-800.webp 800w, https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93d7bbe6b1f8fa270ce_uc-p-1080.webp 1080w, https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93d7bbe6b1f8fa270ce_uc.webp 1280w" className="image-7" />
                 </a>
               </ScrollFade>
             </div>
-            <div data-w-id="bf2b646e-dc91-06d7-2bb1-9547567b8633" role="listitem" class="collection-item-4 w-dyn-item w-col w-col-3">
+            <div data-w-id="bf2b646e-dc91-06d7-2bb1-9547567b8633" role="listitem" className="collection-item-4 w-dyn-item w-col w-col-3">
               <ScrollFade>
-                <a href="/houses/kaziranga-house" class="link-block-3 w-inline-block">
-                  <img src="https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3b34d50ce5d62df1505b6_kaziranga.png" loading="lazy" alt="" sizes="(max-width: 767px) 32vw, (max-width: 991px) 130.890625px, 168px" srcset="https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3b34d50ce5d62df1505b6_kaziranga-p-500.png 500w, https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3b34d50ce5d62df1505b6_kaziranga-p-800.png 800w, https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3b34d50ce5d62df1505b6_kaziranga-p-1080.png 1080w, https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3b34d50ce5d62df1505b6_kaziranga.png 1157w" class="image-7" />
+                <a href="/houses/kaziranga-house" className="link-block-3 w-inline-block">
+                  <img src="https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3b34d50ce5d62df1505b6_kaziranga.png" loading="lazy" alt="" sizes="(max-width: 767px) 32vw, (max-width: 991px) 130.890625px, 168px" srcSet="https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3b34d50ce5d62df1505b6_kaziranga-p-500.png 500w, https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3b34d50ce5d62df1505b6_kaziranga-p-800.png 800w, https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3b34d50ce5d62df1505b6_kaziranga-p-1080.png 1080w, https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3b34d50ce5d62df1505b6_kaziranga.png 1157w" className="image-7" />
                 </a>
               </ScrollFade>
             </div>
-            <div data-w-id="bf2b646e-dc91-06d7-2bb1-9547567b8633" role="listitem" class="collection-item-4 w-dyn-item w-col w-col-3">
+            <div data-w-id="bf2b646e-dc91-06d7-2bb1-9547567b8633" role="listitem" className="collection-item-4 w-dyn-item w-col w-col-3">
               <ScrollFade>
-                <a href="/houses/nallamala-house" class="link-block-3 w-inline-block">
-                  <img src="https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93db8c7b3b709d45453_uc.webp" loading="lazy" alt="" class="image-7" />
+                <a href="/houses/nallamala-house" className="link-block-3 w-inline-block">
+                  <img src="https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93db8c7b3b709d45453_uc.webp" loading="lazy" alt="" className="image-7" />
                 </a>
               </ScrollFade>
             </div>
-            <div data-w-id="bf2b646e-dc91-06d7-2bb1-9547567b8633" role="listitem" class="collection-item-4 w-dyn-item w-col w-col-3">
+            <div data-w-id="bf2b646e-dc91-06d7-2bb1-9547567b8633" role="listitem" className="collection-item-4 w-dyn-item w-col w-col-3">
               <ScrollFade>
-                <a href="/houses/namdapha-house" class="link-block-3 w-inline-block">
-                  <img src="https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93f7bbe6bc366a270d7_uc.webp" loading="lazy" alt="" class="image-7" />
+                <a href="/houses/namdapha-house" className="link-block-3 w-inline-block">
+                  <img src="https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93f7bbe6bc366a270d7_uc.webp" loading="lazy" alt="" className="image-7" />
                 </a>
               </ScrollFade>
             </div>
-            <div data-w-id="bf2b646e-dc91-06d7-2bb1-9547567b8633" role="listitem" class="collection-item-4 w-dyn-item w-col w-col-3">
+            <div data-w-id="bf2b646e-dc91-06d7-2bb1-9547567b8633" role="listitem" className="collection-item-4 w-dyn-item w-col w-col-3">
               <ScrollFade>
-                <a href="/houses/nilgiri-house" class="link-block-3 w-inline-block">
-                  <img src="https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93fa1dabc4638f81f88_uc.webp" loading="lazy" alt="" class="image-7" />
+                <a href="/houses/nilgiri-house" className="link-block-3 w-inline-block">
+                  <img src="https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93fa1dabc4638f81f88_uc.webp" loading="lazy" alt="" className="image-7" />
                 </a>
               </ScrollFade>
             </div>
-            <div data-w-id="bf2b646e-dc91-06d7-2bb1-9547567b8633" role="listitem" class="collection-item-4 w-dyn-item w-col w-col-3">
+            <div data-w-id="bf2b646e-dc91-06d7-2bb1-9547567b8633" role="listitem" className="collection-item-4 w-dyn-item w-col w-col-3">
               <ScrollFade>
-                <a href="/houses/pichavaram-house" class="link-block-3 w-inline-block">
-                  <img src="https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93f93749b2ea2d7cd8c_uc.webp" loading="lazy" alt="" class="image-7" />
+                <a href="/houses/pichavaram-house" className="link-block-3 w-inline-block">
+                  <img src="https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93f93749b2ea2d7cd8c_uc.webp" loading="lazy" alt="" className="image-7" />
                 </a>
               </ScrollFade>
             </div>
-            <div data-w-id="bf2b646e-dc91-06d7-2bb1-9547567b8633" role="listitem" class="collection-item-4 w-dyn-item w-col w-col-3">
+            <div data-w-id="bf2b646e-dc91-06d7-2bb1-9547567b8633" role="listitem" className="collection-item-4 w-dyn-item w-col w-col-3">
               <ScrollFade>
-                <a href="/houses/saranda-house" class="link-block-3 w-inline-block">
-                  <img src="https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93fe68d877188c8a597_uc.webp" loading="lazy" alt="" class="image-7" />
+                <a href="/houses/saranda-house" className="link-block-3 w-inline-block">
+                  <img src="https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93fe68d877188c8a597_uc.webp" loading="lazy" alt="" className="image-7" />
                 </a>
               </ScrollFade>
             </div>
-            <div data-w-id="bf2b646e-dc91-06d7-2bb1-9547567b8633" role="listitem" class="collection-item-4 w-dyn-item w-col w-col-3">
+            <div data-w-id="bf2b646e-dc91-06d7-2bb1-9547567b8633" role="listitem" className="collection-item-4 w-dyn-item w-col w-col-3">
               <ScrollFade>
-                <a href="/houses/sundarbans-house" class="link-block-3 w-inline-block">
-                  <img src="https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93f8fe16b76f42d111d_uc.webp" loading="lazy" alt="" class="image-7" />
+                <a href="/houses/sundarbans-house" className="link-block-3 w-inline-block">
+                  <img src="https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93f8fe16b76f42d111d_uc.webp" loading="lazy" alt="" className="image-7" />
                 </a>
               </ScrollFade>
             </div>
-            <div data-w-id="bf2b646e-dc91-06d7-2bb1-9547567b8633" role="listitem" class="collection-item-4 w-dyn-item w-col w-col-3">
+            <div data-w-id="bf2b646e-dc91-06d7-2bb1-9547567b8633" role="listitem" className="collection-item-4 w-dyn-item w-col w-col-3">
               <ScrollFade>
-                <a href="/houses/wayanad-house" class="link-block-3 w-inline-block">
-                  <img src="https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93f01679945ee8c4ee8_uc.webp" loading="lazy" alt="" class="image-7" />
+                <a href="/houses/wayanad-house" className="link-block-3 w-inline-block">
+                  <img src="https://uploads-ssl.webflow.com/63a483aa90ad16ea8c9fd495/63d3a93f01679945ee8c4ee8_uc.webp" loading="lazy" alt="" className="image-7" />
                 </a>
               </ScrollFade>
             </div>
